@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+}
+
+
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightpink;
+    position:relative;
+    margin-top: 100px;
+    margin-bottom:100px;
+
+    
+     background: url('images/ap');
+    background-size: cover;
+    background-position: center; 
+    padding: 10px 9%;
+}
+
+
+.wrapper {
+    /* height:350px; */
+    width: 400px;
+    color: #000000;
+    background:transparent;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+font-size: 36px;
+text-align: center;
+}
+
+.input {
+    height:50%;
+    width:100%;
+    /* background:salmon; */
+}
+
+.input input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #090909;
+    padding: 20px 45px 20px 20px;
+}
+
+input input::placeholder {
+    color: #000000;
+}
+
+
+.wrapper .remember-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin-top:10px;
+    margin-bottom:10px;
+   margin-left:5px;
+}
+
+ .remember-forget label input {
+    accent-color: #fff;
+    margin-right: 3px;
+    margin:5px;
+    
+}
+
+.remember-forget a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+height: 45px;
+width: 100%;
+background-color: #fff;
+border: none;
+outline: none;
+border-radius: 40px;
+box-shadow: 0 0 10px rgba( 0, 0, 0, .1);
+cursor: pointer;
+font-size:16px;
+color: #333;
+font-weight: 600;
+}
+
+.wrapper .registerlink{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.registerlink p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+h1 {
+    margin-top: 0%;
+    margin-bottom: 50px;
+}
